@@ -110,12 +110,12 @@ const Button = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 25%;
+  margin-top: 20%;
   cursor: pointer;
   @media (min-width: ${minWidth}) {
     font-size: 25px;
     height: 60px;
-    margin-top: 20%;
+    margin-top: 10%;
     padding: 4%;
   }
   @media (min-width: ${maxWidth}) {

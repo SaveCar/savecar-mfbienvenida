@@ -12,17 +12,17 @@ const Wrapper = styled.div`
   flex-wrap: nowrap;
   flex-direction: row;
   width: 100%;
-  margin-top: 30%;
-  margin-bottom: 15%;
+  margin-top: 10%;
+  margin-bottom: 12%;
   @media (min-width: ${minWidth}) {
     width: 100%;
-    margin-top: 20%;
-    margin-bottom: 10%;
+    margin-top: 8%;
+    margin-bottom: 5%;
   }
   @media (min-width: ${maxWidth}) {
     width: 100%;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
   }
 `;
 
