@@ -21,7 +21,6 @@ const Wrapper = styled.div`
   }
   @media (min-width: ${maxWidth}) {
     width: 100%;
-    margin-top: 2%;
     margin-bottom: 3%;
   }
 `;

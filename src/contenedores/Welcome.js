@@ -7,10 +7,8 @@ const minWidth = rem("640px");
 const maxWidth = rem("1200px");
 
 export const Wrapper = styled.div`
-  padding: 16px;
-  background: #304562;
-  height: 100vh;
   display: flex;
+  padding: 16px;
   align-content: center;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -18,11 +16,9 @@ export const Wrapper = styled.div`
   flex-direction: column;
   @media (min-width: ${minWidth}) {
     padding: 0px 10%;
-    height: 100vh;
   }
   @media (min-width: ${maxWidth}) {
     padding: 0px 15%;
-    height: 100vh;
   }
 `;
 
@@ -41,23 +37,6 @@ const Title = styled.h1`
   @media (min-width: ${maxWidth}) {
     font-size: 53px;
     margin-left: 14px;
-    margin-top: 10px;
-  }
-`;
-
-const WrapperImage = styled.div`
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-`;
-
-const Image = styled.img`
-  margin-top: 64px;
-  margin-bottom: 24px;
-  @media (min-width: ${minWidth}) {
-    width: 130px;
-    margin-top: 60px;
   }
 `;
 
@@ -115,13 +94,11 @@ const Button = styled.button`
   @media (min-width: ${minWidth}) {
     font-size: 25px;
     height: 60px;
-    margin-top: 10%;
-    padding: 4%;
   }
   @media (min-width: ${maxWidth}) {
     font-size: 30px;
+    margin-top: 15%;
     height: 68px;
-    margin-top: 13%;
   }
 `;
 
