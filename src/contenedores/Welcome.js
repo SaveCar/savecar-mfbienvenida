@@ -104,6 +104,10 @@ const Button = styled.button`
 const Welcome = () => {
 
   localStorage.removeItem('userData');
+  localStorage.removeItem('credenciales');
+  localStorage.removeItem('userRol');
+  localStorage.removeItem('datosPersonales');
+  localStorage.removeItem('checkBox');
 
   const unmountApplication = (toMf) => {
     localStorage.setItem("toMf", toMf);
