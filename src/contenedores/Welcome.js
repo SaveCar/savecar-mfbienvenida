@@ -108,6 +108,15 @@ const Welcome = () => {
   localStorage.removeItem('userRol');
   localStorage.removeItem('datosPersonales');
   localStorage.removeItem('checkBox');
+  localStorage.removeItem('guardarUsuario');
+  localStorage.removeItem('Data');
+  localStorage.removeItem('ListaVehiculos');
+  localStorage.removeItem('ListaTipoVehiculos');
+  localStorage.removeItem('ListaServicios');
+  localStorage.removeItem('ListaComunas');
+  localStorage.removeItem('ListaTipoCobros');
+  localStorage.removeItem('ListaTipoSuelos');
+  localStorage.removeItem('direccionEspacio');
 
   const unmountApplication = (toMf) => {
     localStorage.setItem("toMf", toMf);
