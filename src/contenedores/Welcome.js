@@ -117,6 +117,14 @@ const Welcome = () => {
   localStorage.removeItem('ListaTipoCobros');
   localStorage.removeItem('ListaTipoSuelos');
   localStorage.removeItem('direccionEspacio');
+  //eliminar claves del localStorage
+  localStorage.removeItem('servicioEspacio');
+  localStorage.removeItem('respuestaSave');
+  localStorage.removeItem('Data');
+  localStorage.removeItem('imagen');
+  localStorage.removeItem('direccionEspacio');
+  localStorage.removeItem('espacioGuardar');
+  localStorage.removeItem('dimensionesEspacio');
 
   const unmountApplication = (toMf) => {
     localStorage.setItem("toMf", toMf);
