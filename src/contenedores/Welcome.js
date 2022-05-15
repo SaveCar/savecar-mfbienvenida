@@ -3,7 +3,8 @@ import { rem } from "polished";
 import Header from "../componentes/header/Header.js";
 import * as singleSpa from "single-spa";
 
-const minWidth = rem("640px");
+const minWidth1 = rem("600px");
+const minWidth2 = rem("750px");
 const maxWidth = rem("1200px");
 
 export const Wrapper = styled.div`
@@ -14,7 +15,7 @@ export const Wrapper = styled.div`
   flex-direction: row;
   align-items: center;
   flex-direction: column;
-  @media (min-width: ${minWidth}) {
+  @media (min-width: ${minWidth1}) {
     padding: 0px 10%;
   }
   @media (min-width: ${maxWidth}) {
@@ -29,14 +30,16 @@ const Title = styled.h1`
   color: #FFF9D5;
   font-weight: 600;
   font-family: rubik;
-  @media (min-width: ${minWidth}) {
-    font-size: 45px;
-    margin-left: 10px;
-    margin-top: 24px;
+  margin-top: 70px;
+  @media (min-width: ${minWidth1}) {
+    font-size: 38px;
+    margin-top: 80px;
+  }
+  @media (min-width: ${minWidth2}) {
+    font-size: 46px;
   }
   @media (min-width: ${maxWidth}) {
-    font-size: 53px;
-    margin-left: 14px;
+    margin-top: 60px;
   }
 `;
 
@@ -46,13 +49,17 @@ const Text = styled.p`
   color: #FFF9D5;
   font-weight: 300;
   font-family: rubik;
-  margin: 0px;
-  padding-top: 5px;
-  @media (min-width: ${minWidth}) {
+  margin-top: 30px;
+  @media (min-width: ${minWidth1}) {
+    font-size: 18px;
+    margin-top: 40px;
+  }
+  @media (min-width: ${minWidth2}) {
     font-size: 20px;
+    margin-top: 30px;
   }
   @media (min-width: ${maxWidth}) {
-    font-size: 25px;
+    margin-top: 20px;
   }
 `;
 
@@ -67,11 +74,12 @@ const Link = styled.p`
   font-style: oblique;
   margin-top: 5%;
   cursor: pointer;
-  @media (min-width: ${minWidth}) {
-    font-size: 20px;
+  @media (min-width: ${minWidth1}) {
+    font-size: 18px;
   }
-  @media (min-width: ${maxWidth}) {
-    font-size: 25px;
+  @media (min-width: ${minWidth2}) {
+    font-size: 20px;
+    padding-top: 0px;
   }
 `;
 
@@ -79,24 +87,30 @@ const Button = styled.button`
   border-radius: 100px;
   font-weight: 600;
   font-family: rubik;
-  height: 50px;
-  font-size: 18px;
-  width: 80%;
+  height: auto;
+  font-size: 16px;
+  width: auto;
   background: #F6EBCF;
   color: #304562;
   border: 1px solid #CBBBA1;
   margin-top: 20%;
   cursor: pointer;
-  @media (min-width: ${minWidth}) {
-    font-size: 25px;
-    height: 60px;
-    width: 70%;
+  padding: 2% 10%;
+  @media (min-width: ${minWidth1}) {
+    font-size: 18px;
+    height: auto;
+    width: auto;
+    padding: 2% 10%;
+    margin-top: 15%;
+  }
+  @media (min-width: ${minWidth2}) {
+    font-size: 20px;
+    margin-top: 10%;
+    padding: 1.6% 10%;
   }
   @media (min-width: ${maxWidth}) {
-    font-size: 30px;
-    margin-top: 15%;
-    height: 68px;
-    width: 60%;
+    margin-top: 10%;
+    padding: 1.4% 10%;
   }
 `;
 
