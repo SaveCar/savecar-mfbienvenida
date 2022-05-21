@@ -27,7 +27,7 @@ const Wrapper = styled.div`
 `;
 
 const LogoSaveCar = styled.img`
-  background: #FFF9D5;
+  background: rgba(255, 255, 255, 1);
   border-radius: 100%;
   padding: 5px;
   width: 20px;
@@ -41,7 +41,7 @@ const LogoSaveCar = styled.img`
 
 const Title = styled.h1`
   font-size: 20px;
-  color: #FFF9D5;
+  color: rgba(255, 255, 255, 1);
   font-weight: 700;
   font-family: rubik;
   margin-left: 5px;

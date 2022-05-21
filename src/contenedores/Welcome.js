@@ -27,26 +27,26 @@ export const Wrapper = styled.div`
 const Title = styled.h1`
   font-size: 30px;
   text-align: center;
-  color: #FFF9D5;
+  color: rgba(255, 255, 255, 1);
   font-weight: 600;
   font-family: rubik;
   margin-top: 70px;
   @media (min-width: ${minWidth1}) {
-    font-size: 38px;
+    font-size: 35px;
     margin-top: 80px;
   }
   @media (min-width: ${minWidth2}) {
-    font-size: 46px;
+    font-size: 41px;
   }
   @media (min-width: ${maxWidth}) {
-    margin-top: 60px;
+    margin-top: 50px;
   }
 `;
 
 const Text = styled.p`
   font-size: 16px;
   text-align: center;
-  color: #FFF9D5;
+  color: rgba(255, 255, 255, 1);
   font-weight: 300;
   font-family: rubik;
   margin-top: 30px;
@@ -66,7 +66,7 @@ const Text = styled.p`
 const Link = styled.p`
   font-size: 16px;
   text-align: center;
-  color: #FFF9D5;
+  color: rgba(255, 255, 255, 1);
   font-weight: 300;
   font-family: rubik;
   margin: 0px;
@@ -90,9 +90,9 @@ const Button = styled.button`
   height: auto;
   font-size: 16px;
   width: auto;
-  background: #F6EBCF;
-  color: #304562;
-  border: 1px solid #CBBBA1;
+  background: #F8F5F0;
+  color: rgba(0, 0, 0, 1);
+  border: 1px solid #F8F5F0;
   margin-top: 20%;
   cursor: pointer;
   padding: 2% 10%;
