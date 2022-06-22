@@ -117,28 +117,8 @@ const Button = styled.button`
 
 const Welcome = () => {
 
-  localStorage.removeItem('userData');
-  localStorage.removeItem('credenciales');
-  localStorage.removeItem('userRol');
-  localStorage.removeItem('datosPersonales');
-  localStorage.removeItem('checkBox');
-  localStorage.removeItem('guardarUsuario');
-  localStorage.removeItem('Data');
-  localStorage.removeItem('ListaVehiculos');
-  localStorage.removeItem('ListaTipoVehiculos');
-  localStorage.removeItem('ListaServicios');
-  localStorage.removeItem('ListaComunas');
-  localStorage.removeItem('ListaTipoCobros');
-  localStorage.removeItem('ListaTipoSuelos');
-  localStorage.removeItem('direccionEspacio');
   //eliminar claves del localStorage
-  localStorage.removeItem('servicioEspacio');
-  localStorage.removeItem('respuestaSave');
-  localStorage.removeItem('Data');
-  localStorage.removeItem('imagen');
-  localStorage.removeItem('direccionEspacio');
-  localStorage.removeItem('espacioGuardar');
-  localStorage.removeItem('dimensionesEspacio');
+  localStorage.clear()
 
   const unmountApplication = (toMf) => {
     localStorage.setItem("toMf", toMf);
